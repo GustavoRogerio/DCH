@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background:#242131 ;
+  font: 400 1rem 'Zen Maru Gothic', sans-serif;
+}
+
+.grid{
+  display: grid;
+  gap:2rem
+}
+
+/*****************  MENU  **********************/
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:  2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+}
+.logo{
+  font: 700 1rem 'Zen Maru Gothic', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #E1E8FF;
+}
+
+.logo span{
+  color: #8D87FF;
+}
+
+.nav-list {
+  color: #E1E8FF;
+  list-style: none;
+  display: flex;
+}
+.nav-list li {
+  font-size: 1rem;
+  letter-spacing: 3px;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.icons{
+  display: flex;
+}
+
+.cart{
+  width: 1.5rem;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.lupa{
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+/*****************  LAYOUT  **********************/
+
+.container{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.image{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.luva{
+  width: 820px;
+  bottom: -5%;
+  left: 35%;
+  position: absolute;
+}
+
+h1{
+  font: 900 3.1rem 'Nunito', sans-serif;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: linear-gradient( 45deg, #E1E8FF, #8d87ff, #8d87ff);
+  line-height: 4rem;
+}
+
+p{
+  color: #E1E8FF;
+  font-size: 1.2rem;
+}
+
+.bnt{
+  display: inline-block;
+  background: linear-gradient( 45deg,#AE87FF, #8d87ff);
+  border-radius: 48px;
+  padding: 10px 20px;
+  margin-right: 82%;
+  text-align: center;
+  text-decoration: none;
+  color: #E1E8FF;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*****************  SEPARAÇÃO DE SEÇÕES  **********************/
+.section{
+  margin: 5rem 0;
+  color:#AE87FF;
+}
